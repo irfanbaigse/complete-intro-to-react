@@ -48,6 +48,7 @@ class Results extends React.Component {
               media={pet.media}
               name={pet.name}
               breed={breed}
+              id={pet.id}
             />
           );
         })}
